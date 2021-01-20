@@ -1,0 +1,587 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  header nav.nav_container {
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border-bottom: none;
+    position: absolute;
+  }
+
+  header div.div_header_container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header nav.nav_list {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+  }
+
+  ul.search_list {
+    justify-content: flex-start;
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 400;
+  }
+
+  ul li.nav_list_item a {
+    position: relative;
+    width: auto;
+    color: black;
+    cursor: pointer;
+    padding-left:15px;
+    padding-right: 15px;
+    display: inline-block;
+    font-weight: 700;
+    list-style-type: none;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-decoration: none;
+  }
+
+  i.fa-chevron-down {
+    padding-left: 8px;
+  }
+
+
+  header img.logo {
+    display: flex;
+    margin: 30px 50px 20px 200px;
+    width: 100px;
+  }
+
+  .btn_1 {
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    border: 1px solid #4a154b;
+    background-color: white;
+    color: #4a154b;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+
+  .btn_1:hover {
+    border: 2px solid #4a154b;
+    background-color: white;
+  }
+
+  .btn_2 {
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    border: 1px solid white;
+    background-color: #4a154b;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 300px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .btn_2:hover {
+    background-color: #4a154b;
+    border-color: #4a154b;
+  }
+
+  .btn_3 {
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    border: 1px solid white;
+    background-color:#4a154b;;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+    text-transform: uppercase;
+  }
+
+  .btn_3:hover {
+    background-color: #4a154b;
+    border-color: #4a154b;
+  }
+
+  .btn_4 {
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    background-color: #f6efe8;
+    border: 1px solid#4a154b;;
+    color:#4a154b;;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+  }
+
+  .btn4:hover {
+    box-shadow: inset 0 0 0 2px #4a154b;;
+  }
+
+  .container_section{
+    background-color: #f6efe8;
+    display: flex;
+    padding-bottom: 50px;
+  }
+
+  .div_container{
+    flex-basis: 50%;
+    margin-top: 100px;
+    margin-left: 120px;
+  }
+
+  .img_people{
+    flex-basis: 50%;
+    margin-top: 100px;
+  }
+
+  .div_container span{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 90px;
+  }
+
+  .div_container h1{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+
+  .div_container p{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    line-height: 21px;
+  } 
+
+  .video_slack {
+    margin-left: 200px;
+    margin-top: -25px;
+  }
+
+  section.description_2 {
+    display: flex;
+  }
+
+  section div.title_section .title_h2 {
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 40px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+  }
+
+  section div.title_section .title_description2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-left: 200px;
+  }
+
+  div.container_icons_description {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    margin-top: 60px;
+    color: #1264a3;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+
+  div div.icon_1 {
+    width: 369px;
+  }
+
+  .icon_2 {
+    width: 369px;
+  }
+
+  .icon_3 {
+    width: 369px;
+  }
+
+  .fa-mouse-pointer , .fa-video , .fa-eye {
+  margin-bottom: 15px;
+  }
+
+  .link_icon1 , .link_icon2 , .link_icon3  {
+    color: #1264a3;
+  }
+
+  .p_icon1 , .p_icon2 , .p_icon3 {
+    color: black;
+    margin-top: 15px;;
+  }
+
+  section.description_4 {
+    background-color:#f5f5f5 ;
+  }
+
+  section div.companies_container {
+    text-align: center;
+  }
+
+  .title_description4 {
+    font-size: 42px;
+    width:760px; 
+    height: 118px;
+    padding-top: 50px;
+    padding-left: 570px;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  }
+
+  .link_customer {
+    font-size:20px ;
+    color: #1264a3;
+    text-decoration: none;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  }
+
+  .img_description4 {
+    padding-left:285px ;
+    padding-right: 60px;
+  }
+
+  .opinion_container {
+    max-width: 1366px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .opinion {
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 300px;
+  }
+
+  .img_logo_fox {
+    margin-top: 110px;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .name_paul {
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size:20px ;
+    font-weight: bold 400;
+  }
+
+  div.logo_companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-right: 52px;
+    padding-left: 52px;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+
+  section.description_5 div.title_5 {
+    font-size: 35px;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-align: center;
+    font-weight: 700px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .img_description5 {
+    width: 1020px;
+    height: 575px;
+    margin-left: 450px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
+
+  .apps_info {
+    text-align: center;
+    color: #696969;
+    margin-bottom: 100px;
+    margin-top: 25px;
+  }
+
+  section.description_6 {
+    background-color: #f6efe8 ;
+  }
+
+  section div.container_description_6 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  section div.about_integrations {
+    width: 380px;
+    margin-left: 200px;
+    margin-top: 80px;
+  }
+
+  section.description_6 div div h2.title_description_6 {
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 42px;
+    font-weight: 700px;
+    margin-bottom: 16px;
+  }
+
+  .p_description_6 {
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 16px;
+  }
+
+  .list {
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  .list_item {
+    margin-bottom: 16px;
+  }
+
+  .link_integrations {
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 400;
+    color: #1264a3;
+    font-size:18px;
+    cursor: pointer;
+  }
+
+  .img_integrations {
+    margin-right: 250px;
+  }
+
+  .fa-long-arrow-alt-right {
+    margin-left: 8px;
+  }
+
+  .fa-check-circle {
+    color: #4a154b; ;
+  }
+
+  .information_companies {
+    width: 450px;
+    margin-top: 100px;
+  }
+
+  .img_everyone {
+    margin-top: 50px;
+  }
+
+  .title_description_7 {
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-align: center;
+    padding: 40px;
+    font-size: 42px ;
+  }
+  
+  .description7 div.container_7 {
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    margin-bottom: 200px;
+  }
+
+  .sml_title {
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  
+  .description7 div.container_7 .box_section img {
+    width: 220px;
+  }
+  
+  .container_7 .box_section {
+    transition: transform 0.4s;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 250px;
+    height: 415px;
+    border: 1px solid #ebeaeb;
+    padding: 10px;
+  }
+
+  .container_7 .box_section:hover {
+    transform: scale(1.1);
+    border: 2px ridge#ebeaeb;
+    background: #fff;
+  }
+  
+  div.container_7 .box_section a.link_7 {
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    vertical-align: bottom;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color:#1264a3 ;
+    font-size: 14px;
+  }
+  
+  i.fa-arrow-right {
+    margin-left: 100px;
+    color:#1264a3;
+  }
+  
+  span {
+    position: relative;
+    top: 96px;
+  }
+  
+  .span_section {
+    position: relative;
+    top: 40px;
+  }
+  
+  .ressource_btn {
+    position: relative;
+  }
+  
+  .description7 div.ressource_btn button.btn_1 {
+    position: absolute;
+    bottom: -150px;
+    right: 600px;
+    width: 230px;
+  }
+
+  .description_8 {
+    background-color:#4a154b;;
+    clip-path: ellipse(75% 100% at center top);
+    padding-bottom: 150px;
+    padding-top: 50px;
+  }
+  
+  .description_8 h2 {
+    color: white;
+    text-align: center;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  button.btn_white {
+    margin-left: 750px;
+    margin-top: 50px;
+  }
+
+  button.btn_purple {
+    box-shadow: inset 0 0 0 1px #fff;
+  }
+
+  footer section div.menu_container {
+    margin-left: 500px;
+    margin-top: 40px;
+  }
+  footer section div.menu_container .footer_menu {
+    display: inline-block;
+    margin-right: 70px;
+    vertical-align: top;
+  }
+  
+  .footer_menu a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",Tahoma, Arial, sans-serif;
+    font-size: 13px;
+    color: #454545;
+  }
+  
+  .footer_menu a:hover {
+    color: #1264a3;
+  }
+  
+  footer hr {
+    color:#ebeaeb;;
+    margin-left: 240px;
+    margin-right: 240px;
+  }
+
+  .terms_footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  footer div a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    cursor: pointer;
+  }
+
+  div.icon_links {
+    cursor: pointer;
+  }
+
+  div.terms_footer a:hover{
+    color: #1264a3;
+  }
+
+  #region:hover {
+    color: #1264a3;
+  }
+
+  p.copyright {
+    margin-left: 240px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 400;
+    color: #454545;
+    font-size: 12px;
+  }
